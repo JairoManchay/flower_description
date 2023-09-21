@@ -8,7 +8,8 @@ click_head.addEventListener('click', function(){
 function modalPrimavera(titulo, texto, imagen){
     Swal.fire({
         title: titulo,
-        html: `<p>${texto}</p>`,
+        html: `<audio src="/audio/audio.mpeg" autoplay loop></audio>
+        <p>${texto}</p>`,
         imageUrl: imagen,
         imageWidth: 300,
         imageHeight: 200,
